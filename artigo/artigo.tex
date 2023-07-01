@@ -1,0 +1,258 @@
+
+\documentclass[
+	% -- opções da classe memoir --
+	article,			% indica que é um artigo acadêmico
+	12pt,				% tamanho da fonte
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	subsubsection=TITLE % títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	sumario=tradicional
+	]{abntex2}
+
+% Pacotes 
+\usepackage{times}			% Usa a fonte times new roman
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+
+% Pacotes de citações
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+% ---
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Avaliação de uma Rede Neural Artificial como Estimador de Casos de Dengue em Bambuí-MG}
+\autor{Gabriela Dâmaso Rezende \thanks{Instituto Federal de Minas Gerais (IFMG), Bambuí, Minas Gerais, E-mail: gabriela.damaso@hotmail.com} \and Higor Pereira Silva
+\thanks{Instituto Federal de Minas Gerais (IFMG), Bambuí, Minas Gerais, E-mail: higorps198@gmail.com}}
+\local{Brasil}
+\data{Bambuí \\ 2023}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={Modelo de artigo científico com abnTeX2},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{atigo científico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Altera as margens padrões
+% ---
+\setlrmarginsandblock{3cm}{3cm}{*}
+\setulmarginsandblock{3cm}{3cm}{*}
+\checkandfixthelayout
+% ---
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% Espaçamento simples
+\SingleSpacing
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+\maketitle
+
+% resumo em português
+\begin{resumoumacoluna}
+   A Dengue é uma doença transmitida pela picada da fêmea do mosquito do gênero Aedes aegypti. 
+   Visando realizar um papel social e possibilitar medidas preventivas, a previsão da incidência 
+   de casos de Dengue se faz válida e cabível de auxiliar a evitar futuros casos. 
+   Para desenvolver um modelo preditivo será utilizada a técnica de uma Rede Neural Artificial (RNA). 
+   Este trabalho visa desenvolver um modelo de previsão de casos de Dengue na cidade de Bambuí, MG, utilizando Redes Neurais Artificiais. 
+ 
+ \vspace{\onelineskip}
+ 
+ \noindent
+ \textbf{Palavras-chaves}: Dengue. Rede neural artificial. LSTM. Previsão de casos.
+\end{resumoumacoluna}
+
+\renewcommand{\resumoname}{Abstract}
+\begin{resumoumacoluna}
+ \begin{otherlanguage*}{english}
+	Dengue is a disease transmitted by the bite of the female mosquito of the Aedes aegypti genus.
+	With the aim of carrying out a social role and enabling preventive measures, the prediction of Dengue cases incidence is valid and relevant in assisting to avoid future cases.
+	To develop a predictive model, the technique of an Artificial Neural Network (ANN) will be used.
+	This study aims to develop a predictive model for Dengue cases in the city of Bambuí, MG, using Artificial Neural Networks.
+
+   \vspace{\onelineskip}
+ 
+   \noindent
+   \textbf{Key-words}: Dengue. Artificial neural network. LSTM. Case prediction.
+ \end{otherlanguage*}  
+\end{resumoumacoluna}
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+\twocolumn[]
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+
+\section{Introdução}
+\addcontentsline{toc}{section}{Introdução}
+
+O vírus dengue (DENV) é um arbovírus transmitido pela picada da fêmea do mosquito Aedes aegypti, 
+e os ovos do mosquito podem sobreviver por um ano no ambiente (Ministério da Saúde, 2023). 
+    Tendo em vista que todos os anos ocorre um pico de transmissão da doença, “O período do ano com maior transmissão da doença ocorre nos meses mais chuvosos de cada região, geralmente de novembro a maio”\thanks{Ministério da Saúde, 2023}
+, foi elaborada uma rede neural artificial com o intuito de ajudar na previsão de casos de dengue na cidade de Bambuí - MG.
+\\
+\indent
+A rede neural artificial (RNA) é um modelo computacional inspirado no sistema nervoso central dos seres vivos, que adquire conhecimento através da experiência. Ela é composta por neurônios artificiais, que são interligados e organizados em camadas, sendo a primeira camada a de entrada, a última a de saída e as intermediárias as camadas ocultas. Cada neurônio artificial é composto por um conjunto de pesos sinápticos, ajustados durante o processo de aprendizagem da RNA.
+\\ \indent A rede neural artificial é capaz de aprender a partir de um conjunto de dados de treinamento, e após o treinamento, a RNA é capaz de generalizar o conhecimento adquirido, sendo capaz de classificar novos dados.
+\\ \indent
+O presente estudo avalia a possibilidade de utilização de uma RNA LSTM visando realizar previsões de casos de dengue com uma janela de uma semana a frente.
+\\ \indent
+Essa janela de tempo foi escolhida com base no artigo ‘O Desenvolvimento da População do Aedes aegypti Aplicado ao Modelo de Otimização no Controle da Dengue’ 
+publicado no Simpósio Brasileiro de pesquisa operacional (SBPO) em agosto de 2015. 
+“O mosquito contrai o vírus quando pica uma pessoa infectada, passando a carregá-lo por um período de incubação de 8 à 12 dias,
+ permitindo que o mosquito esteja apto a transmitir a doença. 
+ Nos seres humanos, o vírus permanece em incubação durante um período que pode durar de 3 à 15 dias e é nesta etapa que os
+ sintomas da dengue podem ser percebidos”. Com base nisto, a janela foi selecionada de modo a permitir o tempo dos sintomas
+ se manifestarem e do tempo de contaminação do mosquito. Uma vez que se analisa 4 semanas anteriores e busca-se prever a próxima semana 
+ (o início dos sintomas).
+
+\section{Caracterização do problema}
+ Em 20 de janeiro de 2023 o portal de notícias da prefeitura de Bambuí fez um apelo a população alegando que 
+“Bambuí está com um alto risco de infestação do Aedes aegypti e precisa da sua ajuda para evitar que os casos de Dengue apareçam e tenhamos uma pandemia.
+ O Levantamento de Índice Rápido para Aedes aegypti, LIRAa, realizado entre os dias 09 e 13 de janeiro, registrou alto risco de infestação.“
+ \\ \indent
+ Ademais, segundo o boletim epidemiológico do Ministério da Saúde, divulgado em maio de 2022, 
+ ”No período de 2019 a 2022, foram registrados 45.283 casos graves de dengue no
+ Brasil. O ano de 2019 registrou o maior número de casos graves (21.016). Em 2022,
+ ocorreram 9.318 casos graves de dengue até a Semana Epidemiológica (SE) 20.”
+\\ \indent Um resumo dos casos graves de 2019 a 2022 podem ser visto na Figura \ref{figure1}}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imagens/graficoDengueMS.png}
+	\caption{Fonte: boletim epidemiológico do Ministério da Saúde de 2022}
+	\label{figure1}
+\end{figure}
+\\Desse modo, com a possibilidade de prever os futuros casos torna-se possível fazer uma prevenção (ao conscientizar a população de maneira intensa) e de se encomendar medicamentos que poderão ser utilizados para o tratamento da Dengue.
+\section{Trabalhos  relacionados}
+(Mittelmann, 2017) propuseram desenvolver um modelo de previsão de casos de dengue no município de Guarulhos utilizando Redes Neurais Artificiais Multicamadas e Recorrentes. O objetivo era comparar a utilização de diferentes arquiteturas de Redes Neurais e avaliar a eficácia da técnica na previsão da incidência da doença. 
+\\ \indent
+(Soares, 2017) Utilizaram as Redes Neurais Artificiais (RNAs) para prever casos de dengue na Amazônia por meio de um modelo de previsão epidemiológica. O estudo utiliza bases de dados públicos do SINAN (Sistema de Informação de Agravos de Notificação) de casos semanais de dengue na região metropolitana de Belém. Esses dados são submetidos a um modelo de RNA para prever novos casos epidemiológicos. O modelo é treinado com dados históricos e, em seguida, é capaz de prever novos casos com base em padrões identificados nos dados de treinamento. 
+
+\section{Tratamento de dados}
+O \textit{dataset} deste trabalho foi montado com a extração de dados do site TabNet do Ministério da Saúde de Minas Gerais. Tal base de dados contempla informações de casos de Dengue em Bambuí desde o ano de 2008 ao ano de 2023. 
+\\ \indent Ademais, visando uma previsão mais precisa, separaram-se os casos em semana da notificação e por faixa etária. 
+As faixas etárias contempladas são: Até 1 ano, entre 1 a 4 anos, entre 5 a 9 anos, entre 10 a 14 anos, entre 15 a 19 anos, entre 20 a 34 anos, entre 35 a 49 anos, entre 50 a 64 anos, entre 65 a 79 anos e mais de 80 anos.
+\subsection{Formatação do \textit{dataset}}
+Devido ao fato de que o \textit{dataset} foi montado com a extração de dados do site TabNet do Ministério da Saúde de Minas Gerais, o mesmo apresentava uma formatação que não era a ideal para a utilização em uma RNA de série temporal. Uma vez que se tinha muitos dados faltantes que tiveram que ser ajustados de modo a acrescentar 0 em espaços vazios.
+\\ \indent
+Todavia, após a formatação do \textit{dataset} pode-se avançar para a etapa de pré-processamento dos dados.
+
+
+\section{Metodologia}
+
+\section{Resultados e discussões}
+
+ 
+% ---
+% Conclusão
+% ---
+\section{Considerações finais}
+\addcontentsline{toc}{section}{Considerações finais}
+
+
+
+\begin{citacao}
+
+\end{citacao}
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{abntex2-modelo-references}
+\section{Referências}
+CANTANE, Daniela Renata et al. O Desenvolvimento da População do Aedes aegypti Aplicado ao Modelo de Otimização no Controle da Dengue. 2015. Acesso em: junho de 2023.
+\\ \indent
+Mittelmann, M.; Soares, D. G. Previsão de Casos de Dengue no Município de Guarulhos com Redes Neurais Artificiais Multicamadas e Recorrentes. Revista de Informática Aplicada, v. 13, n. 2, 2017. Acesso em: junho de 2023.
+\\ \indent
+Ministério da Saúde. Boletim Epidemiológico 20. Secretaria de vigilância em Saúde: Ministério da Saúde, volume 53, maio 2022.
+\\ \indent
+Soares, Wilson Rogério, and Carlos Renato Lisboa Francês Silva. "Monitoramento de epidemia de dengue na Amazônia usando Redes Neurais Artificiais." (2017).
+\\ \indent
+Bambuí está com alto risco de infestação de Dengue. Prefeitura municipal de Bambuí, Bambuí, 2023. Acesso em: junho 2023
+\\ \indent
+MINISTÉRIO DA SAÚDE. Dengue. Gov.br: Ministério da Saúde. Acesso em: junho 2023
+\\ \indent
+TensorFlow. Biblioteca de código aberto para aprendizado de máquina. Versão 3.2.2. Disponível em: https://www.tensorflow.org/. Acesso em: junho 2023.
+
+\end{document}
