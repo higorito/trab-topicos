@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.16)  2 JUL 2023 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.18)  2 JUL 2023 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex
-(/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex
+**/home/gabriela/Documentos/GitHub/trab-topicos/artigo/artigo.tex
+(/home/gabriela/Documentos/GitHub/trab-topicos/artigo/artigo.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -24,8 +24,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \stockwidth=\skip51
 \trimtop=\skip52
 \trimedge=\skip53
- (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
-File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
+ (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem11.clo
+File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
 )
 \binding=\skip54
 \spinemargin=\skip55
@@ -474,7 +474,7 @@ Package: babel 2022/01/26 3.70 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language31). Reported on input line 111.
+(babel)             (\language49). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 )) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
@@ -502,19 +502,19 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Stock height and width: 845.04684pt by 597.50787pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 845.04684pt by 597.50787pt
-Text height and width: 708pt by 455pt
+Text height and width: 704.60031pt by 455pt
 Spine and edge margins: 85.35826pt and 56.9055pt
-Upper and lower margins: 85.35826pt and 51.68858pt
-Headheight and headsep: 14.5pt and 19.8738pt
-Footskip: 30pt
+Upper and lower margins: 85.35826pt and 55.08827pt
+Headheight and headsep: 13.6pt and 19.8738pt
+Footskip: 27.46295pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 42.9055pt
-Sidecapsep and sidecapwidth: 7pt and 92pt
-Sidebarhsep and sidebarwidth: 7pt and 92pt
-Sidebarvsep and sidebartopsep: 14.5pt and 0pt
-Sidebarheight: 590.14995pt
-Sidefoothsep and sidefootwidth: 7pt and 92pt
-Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+Sidecapsep and sidecapwidth: 7pt and 101pt
+Sidebarhsep and sidebarwidth: 7pt and 101pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 594.32022pt
+Sidefoothsep and sidefootwidth: 7pt and 101pt
+Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
 \c@abntex@bookmarkcounter=\count329
@@ -762,19 +762,19 @@ Writing index file artigo.idx
 Stock height and width: 845.04684pt by 597.50787pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 845.04684pt by 597.50787pt
-Text height and width: 677.79506pt by 426pt
+Text height and width: 670.8706pt by 426pt
 Spine and edge margins: 85.35826pt and 85.35826pt
-Upper and lower margins: 85.35826pt and 81.89352pt
-Headheight and headsep: 14.5pt and 19.8738pt
-Footskip: 30pt
+Upper and lower margins: 85.35826pt and 88.81798pt
+Headheight and headsep: 13.6pt and 19.8738pt
+Footskip: 27.46295pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 71.35826pt
-Sidecapsep and sidecapwidth: 7pt and 92pt
-Sidebarhsep and sidebarwidth: 7pt and 92pt
-Sidebarvsep and sidebartopsep: 14.5pt and 0pt
-Sidebarheight: 590.14995pt
-Sidefoothsep and sidefootwidth: 7pt and 92pt
-Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+Sidecapsep and sidecapwidth: 7pt and 101pt
+Sidebarhsep and sidebarwidth: 7pt and 101pt
+Sidebarvsep and sidebartopsep: 13.6pt and 0pt
+Sidebarheight: 594.32022pt
+Sidefoothsep and sidefootwidth: 7pt and 101pt
+Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 ******************************************************
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -862,7 +862,7 @@ Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex:120: Undefined control sequence.
+/home/gabriela/Documentos/GitHub/trab-topicos/artigo/artigo.tex:120: Undefined control sequence.
 <recently read> \theforeigntitle 
                                  
 l.120 
@@ -877,22 +877,21 @@ and I'll forget about whatever was undefined.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 120.
+(Font)              <12> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <8> on input line 120.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 120.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 120.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 120.
+LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 120.
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[][] [][]\T1/ptm/m/n/10 (+20) Instituto Fe-de-ral de Mi-nas Ge-rais (IFMG), Bam-buí, Mi-nas Ge-rais, E-mail: ga-bri-
- []
-
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 123.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -905,194 +904,153 @@ Package babel Info: Importing basic data for english
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (7.5892pt too wide) in paragraph at lines 162--181
-\T1/ptm/m/n/12 (-20) pica uma pes-soa in-fec-tada, pas-sando a carregá-
+Overfull \hbox (3.13712pt too wide) in paragraph at lines 182--182
+[]\T1/phv/m/n/14.4 (-20) CARACTERIZAÇÃO DO PRO-
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (2.5809pt too wide) in paragraph at lines 182--182
-[]\T1/phv/m/n/17.28 (-20) CARACTERIZAÇÃO DO
- []
-
-
-LaTeX Warning: Reference `figure1' on page 2 undefined on input line 191.
 
 <imagens/graficoDengueMS.png, id=16, 1039.885pt x 557.08125pt>
 File: imagens/graficoDengueMS.png Graphic file (type png)
 <use imagens/graficoDengueMS.png>
-Package pdftex.def Info: imagens/graficoDengueMS.png  used on input line 194.
+Package pdftex.def Info: imagens/graficoDengueMS.png  used on input line 195.
 (pdftex.def)             Requested size: 213.0pt x 114.10039pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 194--195
+Overfull \hbox (5.0pt too wide) in paragraph at lines 195--196
  [][] 
- []
-
-
-Overfull \hbox (1.63098pt too wide) in paragraph at lines 183--199
-[]\T1/ptm/m/n/12 (-20) Um re-sumo dos ca-sos gra-ves de 2019
  []
 
 [2
 
-]
-Overfull \hbox (1.44737pt too wide) in paragraph at lines 205--208
-[]\T1/ptm/m/n/12 (-20) Ademais, vi-sando uma pre-vi-são mais
+ <./imagens/graficoDengueMS.png>]
+Overfull \hbox (14.63448pt too wide) in paragraph at lines 200--200
+[]\T1/phv/m/n/14.4 (-20) TRABALHOS RE-LA-CI-O-NA-DOS 
  []
 
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 208.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 209.
 
-Overfull \hbox (11.59131pt too wide) in paragraph at lines 208--208
-[]\T1/phv/m/n/14.4 (-20) FORMATAÇÃO DO \T1/phv/m/sl/14.4 (-20) DA-TA-SET 
+Overfull \hbox (7.78049pt too wide) in paragraph at lines 210--213
+\T1/ptm/m/n/10.95 (-20) pode-se avan-çar para a etapa de pré-processamento
  []
 
-[3 <./imagens/graficoDengueMS.png>]
 
-LaTeX Warning: Reference `figure2' on page 4 undefined on input line 223.
+Overfull \hbox (7.55083pt too wide) in paragraph at lines 216--216
+[]\T1/phv/m/n/12 (-20) SOFTWARES E BI-BLI-O-TE-CAS UTI-
+ []
 
-<imagens/imgCodigos/casosTotaisBambui20082023.png, id=38, 724.8681pt x 392.4261pt>
+<imagens/imgCodigos/casosTotaisBambui20082023.png, id=26, 724.8681pt x 392.4261pt>
 File: imagens/imgCodigos/casosTotaisBambui20082023.png Graphic file (type png)
 <use imagens/imgCodigos/casosTotaisBambui20082023.png>
-Package pdftex.def Info: imagens/imgCodigos/casosTotaisBambui20082023.png  used on input line 226.
+Package pdftex.def Info: imagens/imgCodigos/casosTotaisBambui20082023.png  used on input line 227.
 (pdftex.def)             Requested size: 213.0pt x 115.3096pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 226--227
+Overfull \hbox (5.0pt too wide) in paragraph at lines 227--228
  [][] 
  []
 
 
-LaTeX Warning: Reference `figure3' on page 4 undefined on input line 241.
+Overfull \hbox (54.01059pt too wide) in paragraph at lines 223--237
+\T1/ptm/m/n/10.95 (-20) mé-todo \T1/ptm/m/it/10.95 (-20) train_test_split \T1/ptm/m/n/10.95 (-20) da bi-bli-o-teca \T1/ptm/m/it/10.95 (-20) skle-arn.model_selection
+ []
 
-<imagens/imgCodigos/melhorLSTM.png, id=39, 2336.73pt x 104.39pt>
+
+Overfull \hbox (1.81114pt too wide) in paragraph at lines 223--237
+\T1/ptm/m/n/10.95 (-20) LSTM, que são: \T1/ptm/m/it/10.95 (-20) batch\T1/ptm/m/n/10.95 (-20) , \T1/ptm/m/it/10.95 (-20) ti-mes-teps \T1/ptm/m/n/10.95 (-20) e \T1/ptm/m/it/10.95 (-20) fe-a-tu-res\T1/ptm/m/n/10.95 (-20) . Onde
+ []
+
+[3]
+<imagens/imgCodigos/melhorLSTM.png, id=40, 2336.73pt x 104.39pt>
 File: imagens/imgCodigos/melhorLSTM.png Graphic file (type png)
 <use imagens/imgCodigos/melhorLSTM.png>
-Package pdftex.def Info: imagens/imgCodigos/melhorLSTM.png  used on input line 245.
+Package pdftex.def Info: imagens/imgCodigos/melhorLSTM.png  used on input line 246.
 (pdftex.def)             Requested size: 213.0pt x 9.51414pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 245--246
+Overfull \hbox (5.0pt too wide) in paragraph at lines 246--247
  [][] 
  []
 
-
-LaTeX Warning: Reference `figure4' on page 4 undefined on input line 251.
-
-
-LaTeX Warning: Reference `figure4' on page 4 undefined on input line 253.
-
-<imagens/imgCodigos/historicoMSExEpocasTreino.png, id=40, 733.5405pt x 433.62pt>
+<imagens/imgCodigos/historicoMSExEpocasTreino.png, id=41, 733.5405pt x 433.62pt>
 File: imagens/imgCodigos/historicoMSExEpocasTreino.png Graphic file (type png)
 <use imagens/imgCodigos/historicoMSExEpocasTreino.png>
-Package pdftex.def Info: imagens/imgCodigos/historicoMSExEpocasTreino.png  used on input line 256.
+Package pdftex.def Info: imagens/imgCodigos/historicoMSExEpocasTreino.png  used on input line 257.
 (pdftex.def)             Requested size: 213.0pt x 125.91199pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 256--257
+Overfull \hbox (5.0pt too wide) in paragraph at lines 257--258
  [][] 
  []
 
 
-Overfull \hbox (0.3776pt too wide) in paragraph at lines 251--260
-\T1/ptm/m/n/12 (-20) Tam-bém foi uti-li-zado o mé-todo \T1/ptm/m/it/12 (-20) Mo-del-Check-
+Overfull \hbox (59.52177pt too wide) in paragraph at lines 252--261
+\T1/ptm/m/n/10.95 (-20) mé-todo \T1/ptm/m/it/10.95 (-20) EarlyS-top-ping \T1/ptm/m/n/10.95 (-20) da bi-bli-o-teca \T1/ptm/m/it/10.95 (-20) ten-sor-flow.keras.callbacks
  []
 
 
-Overfull \hbox (4.06094pt too wide) in paragraph at lines 251--260
-\T1/ptm/m/it/12 (-20) point \T1/ptm/m/n/12 (-20) da bi-bli-o-teca \T1/ptm/m/it/12 (-20) ten-sor-flow.keras.callbacks
+Underfull \vbox (badness 4819) has occurred while \output is active []
+
+ [4 <./imagens/imgCodigos/casosTotaisBambui20082023.png> <./imagens/imgCodigos/melhorLSTM.png>]
+Overfull \hbox (14.8063pt too wide) in paragraph at lines 269--269
+[]\T1/phv/m/n/14.4 (-20) RESULTADOS E DIS-CUS-SÕES 
  []
 
-[4 <./imagens/imgCodigos/casosTotaisBambui20082023.png> <./imagens/imgCodigos/melhorLSTM.png>]
-Overfull \hbox (15.07822pt too wide) in paragraph at lines 268--268
-[]\T1/phv/m/n/17.28 (-20) RESULTADOS E DIS-CUS-
- []
-
-
-LaTeX Warning: Reference `figure5' on page 5 undefined on input line 269.
-
-<imagens/imgCodigos/previsaoYtesteCasosTotais.png, id=50, 711.1368pt x 365.6862pt>
+<imagens/imgCodigos/previsaoYtesteCasosTotais.png, id=51, 711.1368pt x 365.6862pt>
 File: imagens/imgCodigos/previsaoYtesteCasosTotais.png Graphic file (type png)
 <use imagens/imgCodigos/previsaoYtesteCasosTotais.png>
-Package pdftex.def Info: imagens/imgCodigos/previsaoYtesteCasosTotais.png  used on input line 272.
+Package pdftex.def Info: imagens/imgCodigos/previsaoYtesteCasosTotais.png  used on input line 273.
 (pdftex.def)             Requested size: 213.0pt x 109.52814pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 272--273
+Overfull \hbox (5.0pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
-
-LaTeX Warning: Reference `figure6' on page 5 undefined on input line 277.
-
-<imagens/imgCodigos/previsaoYteste2034.png, id=51, 706.0779pt x 365.6862pt>
+<imagens/imgCodigos/previsaoYteste2034.png, id=52, 706.0779pt x 365.6862pt>
 File: imagens/imgCodigos/previsaoYteste2034.png Graphic file (type png)
 <use imagens/imgCodigos/previsaoYteste2034.png>
-Package pdftex.def Info: imagens/imgCodigos/previsaoYteste2034.png  used on input line 280.
+Package pdftex.def Info: imagens/imgCodigos/previsaoYteste2034.png  used on input line 281.
 (pdftex.def)             Requested size: 213.0pt x 110.31491pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 280--281
+Overfull \hbox (5.0pt too wide) in paragraph at lines 281--282
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./imagens/imgCodigos/historicoMSExEpocasTreino.png>]
-
-LaTeX Warning: Reference `figure7' on page 6 undefined on input line 288.
-
-<imagens/imgCodigos/previsaoFullCasosTotais.png, id=61, 879.5259pt x 268.1217pt>
+<imagens/imgCodigos/previsaoFullCasosTotais.png, id=53, 879.5259pt x 268.1217pt>
 File: imagens/imgCodigos/previsaoFullCasosTotais.png Graphic file (type png)
 <use imagens/imgCodigos/previsaoFullCasosTotais.png>
-Package pdftex.def Info: imagens/imgCodigos/previsaoFullCasosTotais.png  used on input line 291.
+Package pdftex.def Info: imagens/imgCodigos/previsaoFullCasosTotais.png  used on input line 292.
 (pdftex.def)             Requested size: 213.0pt x 64.93147pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 291--292
+Overfull \hbox (5.0pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
-
-Overfull \hbox (24.79213pt too wide) in paragraph at lines 303--303
-[]\T1/phv/m/n/17.28 (-20) CONSIDERAÇÕES FI-NAIS 
- []
-
-
-Overfull \hbox (3.29709pt too wide) in paragraph at lines 305--310
-[]\T1/ptm/m/n/12 (-20) Este tra-ba-lho teve como ob-je-tivo prin-
- []
-
-[6 <./imagens/imgCodigos/previsaoYtesteCasosTotais.png> <./imagens/imgCodigos/previsaoYteste2034.png> <./imagens/imgCodigos/previsaoFullCasosTotais.png>]
+[5 <./imagens/imgCodigos/historicoMSExEpocasTreino.png> <./imagens/imgCodigos/previsaoYtesteCasosTotais.png> <./imagens/imgCodigos/previsaoYteste2034.png>]
 No file artigo.bbl.
 
-Overfull \hbox (2.7358pt too wide) in paragraph at lines 327--340
-\T1/ptm/m/n/12 (-20) Saúde: Mi-nis-té-rio da Saúde, vo-lume 53, maio
+Overfull \hbox (18.94774pt too wide) in paragraph at lines 328--341
+[]\T1/ptm/m/n/10.95 (-20) MINISTÉRIO DA SAÚDE. Den-gue. Gov.br:
  []
 
 
-Overfull \hbox (25.76616pt too wide) in paragraph at lines 327--340
-\T1/ptm/m/n/12 (-20) 3.2.2. Dis-po-ní-vel em: https://www.tensorflow.org/.
+Overfull \hbox (0.37442pt too wide) in paragraph at lines 328--341
+[]\T1/ptm/m/n/10.95 (-20) TensorFlow. Bi-bli-o-teca de có-digo aberto
  []
 
-[7] (./artigo.aux)
-
-LaTeX Warning: There were undefined references.
-
+[6 <./imagens/imgCodigos/previsaoFullCasosTotais.png>] (./artigo.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 18248 strings out of 478287
- 295940 string characters out of 5849289
- 706544 words of memory out of 5000000
- 35874 multiletter control sequences out of 15000+600000
- 521403 words of font info for 237 fonts, out of 8000000 for 9000
+ 18262 strings out of 478287
+ 296113 string characters out of 5849289
+ 707513 words of memory out of 5000000
+ 35888 multiletter control sequences out of 15000+600000
+ 523416 words of font info for 239 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,106p,1130b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,11n,106p,1136b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on artigo.pdf (7 pages, 351023 bytes).
+Output written on artigo.pdf (6 pages, 348443 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
- 59588 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 60100 words of extra memory for PDF output out of 61914 (max. 10000000)
 
