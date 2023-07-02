@@ -1,9 +1,9 @@
-PWD /home/higor/Documentos/GitHub/trab-topicos/artigo
+PWD /home/gabriela/Documentos/GitHub/trab-topicos/artigo
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex
+INPUT /home/gabriela/Documentos/GitHub/trab-topicos/artigo/artigo.tex
 OUTPUT artigo.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
