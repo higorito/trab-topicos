@@ -279,8 +279,21 @@ A RNA também foi treinada para prever as 10 faixas etárias, mas não obteve um
 	\caption{Fonte: Autores}
 	\label{figure6}
 \end{figure}
+\\ \indent
 Sendo assim, a RNA foi capaz de prever o total de casos de dengue, mas não foi capaz de prever as faixas etárias.
-AQUI SERIA BOM FALAR SOBRE OS DADOS LA DE METRICAS
+AQUI SERIA BOM FALAR SOBRE OS DADOS LA DE METRICAS R2 ETC ETC ETC
+\\ \indent
+
+Para melhor visualização dos resultados, foi feito um gráfico com os a série temporal do total de casos de dengue, o conjunto de teste de validação e a previsão da RNA, como pode ser visto na figura \ref{figure7}. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{imagens/imgCodigos/previsaoFullCasosTotais.png}
+	\caption{Fonte: Autores}
+	\label{figure7}
+\end{figure}
+\\ \indent
+Desta forma, é possível observar que a RNA acompanha a série temporal, no caso de teste ela fica sobreposta a série temporal, mas no caso de previsão ela fica um pouco atrasada, como já foi dito anteriormente.
+\\ \indent
 
  
 % ---
@@ -288,8 +301,11 @@ AQUI SERIA BOM FALAR SOBRE OS DADOS LA DE METRICAS
 % ---
 \section{Considerações finais}
 \addcontentsline{toc}{section}{Considerações finais}
-
-
+Este trabalho teve como objetivo principal a previsão do total de casos de dengue, utilizando uma RNA do tipo LSTM e dados de casos de dengue do município de Bambuí-MG. Para isso, foi feito um estudo sobre RNA, LSTM e séries temporais. Também foi feito um estudo sobre a dengue, para entender melhor o problema e os dados utilizados. Os resultados não foram tão bons quanto o esperado, mas a RNA foi capaz de prever o total de casos de dengue, não foi capaz de prever as faixas etárias e também um certo atraso na previsão. Os dados podem ser comparados com os dados do Ministério da Saúde, para verificar a veracidade dos dados e também aplicar o modelo em outros municípios. 
+\\ \indent
+Os resultados obtidos podem ser melhorados com a utilização de mais dados, como por exemplo, dados de temperatura, umidade, quantidade de chuva, entre outros. Também pode ser feito um estudo mais aprofundado sobre séries temporais e LSTM, para melhorar o modelo e também utilizar outros modelos de RNA, como por exemplo, redes neurais convolucionais. Nota-se que neste caso não consideramos fatores como o clima, a temperatura, a umidade, a quantidade de chuva, entre outros, que podem influenciar no número de casos de dengue. No entanto, foi satisfatório o resultado obtido, e pode-se utilizar outros métodos para comparação de resultados. 
+\\ \indent
+Em trabalhos futuros, é sugerido a geração de um modelo de uso geral para previsão de casos de dengue, que possa ser utilizado em qualquer município, com a utilização de dados de temperatura, umidade, quantidade de chuva, entre outros. Visando disponibilizar o modelo para a população, para que possam se prevenir e também para que os órgãos de saúde possam se preparar para um possível surto de dengue.
 
 \begin{citacao}
 
