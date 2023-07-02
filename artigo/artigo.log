@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.18)  1 JUL 2023 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.16)  1 JUL 2023 23:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/gabriela/√Årea de Trabalho/artigo/artigo.tex"
-(/home/gabriela/√Årea de Trabalho/artigo/artigo.tex
+**/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex
+(/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
@@ -474,7 +474,7 @@ Package: babel 2022/01/26 3.70 The Babel package
  (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
-(babel)             (\language49). Reported on input line 111.
+(babel)             (\language31). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 )) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
@@ -646,113 +646,113 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks31
 )
-Package color Info: Redefining color blue on input line 64.
+Package color Info: Redefining color blue on input line 63.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 81.
+(hyperref)                removing `\@ifnextchar' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\afterassignment' on input line 81.
+(hyperref)                removing `\afterassignment' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 81.
+(hyperref)                removing `\<def>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@thanks' on input line 81.
+(hyperref)                removing `\@thanks' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\afterassignment' on input line 81.
+(hyperref)                removing `\afterassignment' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 81.
+(hyperref)                removing `\<def>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@bs@thanks' on input line 81.
+(hyperref)                removing `\@bs@thanks' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 81.
+(hyperref)                removing `\@ifnextchar' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\afterassignment' on input line 81.
+(hyperref)                removing `\afterassignment' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 81.
+(hyperref)                removing `\<def>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@thanks' on input line 81.
+(hyperref)                removing `\@thanks' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\afterassignment' on input line 81.
+(hyperref)                removing `\afterassignment' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 81.
+(hyperref)                removing `\<let>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 81.
+(hyperref)                removing `\<def>-command' on input line 80.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@bs@thanks' on input line 81.
+(hyperref)                removing `\@bs@thanks' on input line 80.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 81.
+Package hyperref Info: Option `colorlinks' set `true' on input line 80.
 \artigo@idxfile=\write4
 \openout4 = `artigo.idx'.
 
@@ -789,25 +789,25 @@ LaTeX Warning: Unused global option(s):
 (./artigo.aux)
 \openout1 = `artigo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-Package hyperref Info: Link coloring ON on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+Package hyperref Info: Link coloring ON on input line 114.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -819,10 +819,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 115.
-LaTeX Info: Redefining \ref on input line 115.
-LaTeX Info: Redefining \pageref on input line 115.
-LaTeX Info: Redefining \nameref on input line 115.
+LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
 \myptabbox=\box59
 \myptabboxwidth=\skip264
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -844,28 +844,28 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Info: Redefining \microtypecontext on input line 115.
-Package microtype Info: Applying patch `item' on input line 115.
-Package microtype Info: Applying patch `toc' on input line 115.
-Package microtype Info: Applying patch `eqnum' on input line 115.
-Package microtype Info: Applying patch `footnote' on input line 115.
+LaTeX Info: Redefining \microtypecontext on input line 114.
+Package microtype Info: Applying patch `item' on input line 114.
+Package microtype Info: Applying patch `toc' on input line 114.
+Package microtype Info: Applying patch `eqnum' on input line 114.
+Package microtype Info: Applying patch `footnote' on input line 114.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 115.
+LaTeX Info: Redefining \showhyphens on input line 114.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-/home/gabriela/√Årea de Trabalho/artigo/artigo.tex:121: Undefined control sequence.
+/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex:120: Undefined control sequence.
 <recently read> \theforeigntitle 
                                  
-l.121 
+l.120 
       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -877,21 +877,21 @@ and I'll forget about whatever was undefined.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 121.
+(Font)              <14.4> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 121.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 121.
+(Font)              <7> on input line 120.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 120.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 121.
+(Font)              <5> on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 [][] [][]\T1/ptm/m/n/10 (+20) Instituto Fe-de-ral de Mi-nas Ge-rais (IFMG), Bam-buÌ, Mi-nas Ge-rais, E-mail: ga-bri-
  []
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 124.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 123.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -906,13 +906,13 @@ Package babel Info: Importing basic data for english
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 165.
+(Font)              <12> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 165.
+(Font)              <8> on input line 164.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 165.
+(Font)              <6> on input line 164.
 
-Overfull \hbox (7.5892pt too wide) in paragraph at lines 163--182
+Overfull \hbox (7.5892pt too wide) in paragraph at lines 162--181
 \T1/ptm/m/n/12 (-20) pica uma pes-soa in-fec-tada, pas-sando a carreg·-
  []
 
@@ -920,31 +920,25 @@ Overfull \hbox (7.5892pt too wide) in paragraph at lines 163--182
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (2.5809pt too wide) in paragraph at lines 183--183
+Overfull \hbox (2.5809pt too wide) in paragraph at lines 182--182
 []\T1/phv/m/n/17.28 (-20) CARACTERIZA«√O DO
  []
 
 
-LaTeX Warning: Reference `figure1' on page 2 undefined on input line 192.
-
-/home/gabriela/√Årea de Trabalho/artigo/artigo.tex:192: Too many }'s.
-l.192 ... podem ser visto na Figura \ref{figure1}}
-                                                  .
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+LaTeX Warning: Reference `figure1' on page 2 undefined on input line 191.
 
 <imagens/graficoDengueMS.png, id=17, 1039.885pt x 557.08125pt>
 File: imagens/graficoDengueMS.png Graphic file (type png)
 <use imagens/graficoDengueMS.png>
-Package pdftex.def Info: imagens/graficoDengueMS.png  used on input line 195.
+Package pdftex.def Info: imagens/graficoDengueMS.png  used on input line 194.
 (pdftex.def)             Requested size: 213.0pt x 114.10039pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 195--196
+Overfull \hbox (5.0pt too wide) in paragraph at lines 194--195
  [][] 
  []
 
 
-Overfull \hbox (1.63098pt too wide) in paragraph at lines 184--200
+Overfull \hbox (1.63098pt too wide) in paragraph at lines 183--199
 []\T1/ptm/m/n/12 (-20) Um re-sumo dos ca-sos gra-ves de 2019
  []
 
@@ -954,41 +948,127 @@ Underfull \vbox (badness 3780) has occurred while \output is active []
  [2
 
 ]
-Overfull \hbox (1.44737pt too wide) in paragraph at lines 206--209
+Overfull \hbox (1.44737pt too wide) in paragraph at lines 205--208
 []\T1/ptm/m/n/12 (-20) Ademais, vi-sando uma pre-vi-s„o mais
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 209.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 208.
 
-Overfull \hbox (11.59131pt too wide) in paragraph at lines 209--209
+Overfull \hbox (11.59131pt too wide) in paragraph at lines 208--208
 []\T1/phv/m/n/14.4 (-20) FORMATA«√O DO \T1/phv/m/sl/14.4 (-20) DA-TA-SET 
  []
 
+[3 <./imagens/graficoDengueMS.png>]
 
-Overfull \hbox (15.07822pt too wide) in paragraph at lines 217--217
+LaTeX Warning: Reference `figure2' on page 4 undefined on input line 223.
+
+<imagens/imgCodigos/casosTotaisBambui20082023.png, id=40, 724.8681pt x 392.4261pt>
+File: imagens/imgCodigos/casosTotaisBambui20082023.png Graphic file (type png)
+<use imagens/imgCodigos/casosTotaisBambui20082023.png>
+Package pdftex.def Info: imagens/imgCodigos/casosTotaisBambui20082023.png  used on input line 226.
+(pdftex.def)             Requested size: 213.0pt x 115.3096pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 226--227
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `figure3' on page 4 undefined on input line 241.
+
+<imagens/imgCodigos/melhorLSTM.png, id=41, 2336.73pt x 104.39pt>
+File: imagens/imgCodigos/melhorLSTM.png Graphic file (type png)
+<use imagens/imgCodigos/melhorLSTM.png>
+Package pdftex.def Info: imagens/imgCodigos/melhorLSTM.png  used on input line 244.
+(pdftex.def)             Requested size: 213.0pt x 9.51414pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 244--245
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `figure4' on page 4 undefined on input line 249.
+
+
+LaTeX Warning: Reference `figure4' on page 4 undefined on input line 251.
+
+<imagens/imgCodigos/historicoMSExEpocasTreino.png, id=42, 733.5405pt x 433.62pt>
+File: imagens/imgCodigos/historicoMSExEpocasTreino.png Graphic file (type png)
+<use imagens/imgCodigos/historicoMSExEpocasTreino.png>
+Package pdftex.def Info: imagens/imgCodigos/historicoMSExEpocasTreino.png  used on input line 254.
+(pdftex.def)             Requested size: 213.0pt x 125.91199pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 254--255
+ [][] 
+ []
+
+
+Overfull \hbox (0.3776pt too wide) in paragraph at lines 249--258
+\T1/ptm/m/n/12 (-20) Tam-bÈm foi uti-li-zado o mÈ-todo \T1/ptm/m/it/12 (-20) Mo-del-Check-
+ []
+
+
+Overfull \hbox (4.06094pt too wide) in paragraph at lines 249--258
+\T1/ptm/m/it/12 (-20) point \T1/ptm/m/n/12 (-20) da bi-bli-o-teca \T1/ptm/m/it/12 (-20) ten-sor-flow.keras.callbacks
+ []
+
+[4 <./imagens/imgCodigos/casosTotaisBambui20082023.png> <./imagens/imgCodigos/melhorLSTM.png>]
+Overfull \hbox (15.07822pt too wide) in paragraph at lines 266--266
 []\T1/phv/m/n/17.28 (-20) RESULTADOS E DIS-CUS-
  []
 
 
-Overfull \hbox (24.79213pt too wide) in paragraph at lines 223--223
+LaTeX Warning: Reference `figure5' on page 5 undefined on input line 267.
+
+<imagens/imgCodigos/previsaoYtesteCasosTotais.png, id=52, 711.1368pt x 365.6862pt>
+File: imagens/imgCodigos/previsaoYtesteCasosTotais.png Graphic file (type png)
+<use imagens/imgCodigos/previsaoYtesteCasosTotais.png>
+Package pdftex.def Info: imagens/imgCodigos/previsaoYtesteCasosTotais.png  used on input line 270.
+(pdftex.def)             Requested size: 213.0pt x 109.52814pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 270--271
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `figure6' on page 5 undefined on input line 275.
+
+<imagens/imgCodigos/previsaoYteste2034.png, id=53, 706.0779pt x 365.6862pt>
+File: imagens/imgCodigos/previsaoYteste2034.png Graphic file (type png)
+<use imagens/imgCodigos/previsaoYteste2034.png>
+Package pdftex.def Info: imagens/imgCodigos/previsaoYteste2034.png  used on input line 278.
+(pdftex.def)             Requested size: 213.0pt x 110.31491pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 278--279
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./imagens/imgCodigos/historicoMSExEpocasTreino.png>]
+Overfull \hbox (24.79213pt too wide) in paragraph at lines 289--289
 []\T1/phv/m/n/17.28 (-20) CONSIDERA«’ES FI-NAIS 
  []
 
 No file artigo.bbl.
+/home/higor/Documentos/GitHub/trab-topicos/artigo/artigo.tex:310: Too many }'s.
+l.310 CANncias}
+               
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-Overfull \hbox (2.7358pt too wide) in paragraph at lines 244--257
+
+Overfull \hbox (2.7358pt too wide) in paragraph at lines 310--324
 \T1/ptm/m/n/12 (-20) Sa˙de: Mi-nis-tÈ-rio da Sa˙de, vo-lume 53, maio
  []
 
 
-Overfull \hbox (25.76616pt too wide) in paragraph at lines 244--257
+Overfull \hbox (25.76616pt too wide) in paragraph at lines 310--324
 \T1/ptm/m/n/12 (-20) 3.2.2. Dis-po-nÌ-vel em: https://www.tensorflow.org/.
  []
 
-[3 <./imagens/graficoDengueMS.png>] [4
-
-] (./artigo.aux)
+[6 <./imagens/imgCodigos/previsaoYtesteCasosTotais.png> <./imagens/imgCodigos/previsaoYteste2034.png>] (./artigo.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -997,20 +1077,20 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 18163 strings out of 478287
- 293789 string characters out of 5849289
- 706547 words of memory out of 5000000
- 35850 multiletter control sequences out of 15000+600000
- 523538 words of font info for 215 fonts, out of 8000000 for 9000
+ 18276 strings out of 478287
+ 296136 string characters out of 5849289
+ 706544 words of memory out of 5000000
+ 35892 multiletter control sequences out of 15000+600000
+ 526693 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,11n,106p,1045b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,11n,106p,1130b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on artigo.pdf (4 pages, 100476 bytes).
+Output written on artigo.pdf (6 pages, 312443 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 65134 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 65215 words of extra memory for PDF output out of 74296 (max. 10000000)
 
